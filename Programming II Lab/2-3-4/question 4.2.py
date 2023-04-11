@@ -8,10 +8,13 @@
 
 
 # loop to draw the pattern
-for i in range(6):
-    for j in range(i + 1):
-        if j == 0 or j == i:
-            print("#", end="")
+n = 6
+for row in range(n):
+    text = ""
+    for column in range(row + 1):
+        if column == 0 or column == row:
+            text += "#"
         else:
-            print(" ", end="")
-    print()
+            text += " "
+    print(text)
+
