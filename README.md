@@ -1,4 +1,4 @@
-# Python Practices
+# Python Practices 🐍
 
 This is a GitHub repository that I created to track my progress and share my development while learning the Python programming language. In this project, I aim to learn the fundamental concepts, syntax, and best practices of Python. This repository serves as a resource for improving my Python skills through code examples, documentation, and notes.
 
