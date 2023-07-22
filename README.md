@@ -12,7 +12,7 @@ If you are new to learning Python, the following resources can help you get star
 - [Learn Python](https://www.learnpython.org/): An interactive online learning platform that teaches Python programming language through interactive lessons.
 - [Codecademy - Python](https://www.codecademy.com/learn/learn-python-3): An online learning platform that teaches Python through interactive lessons.
 
-## Project Content
+## Repository Content
 
 This repository consists of the following folders and files:
 
