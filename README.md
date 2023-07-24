@@ -16,7 +16,7 @@ If you are new to learning Python, the following resources can help you get star
 
 This repository consists of the following folders and files:
 
-- **Coursera (IBM - Python for Data Science)** ![](https://geps.dev/progress/51): Contains files and resources from the "Python for Data Science" course offered by IBM on Coursera.
+- **Coursera (IBM - Python for Data Science)** ![](https://geps.dev/progress/59): Contains files and resources from the "Python for Data Science" course offered by IBM on Coursera.
 - **Codecademy (Data Scientist Career Path)** ![](https://geps.dev/progress/2): Contains files and resources from the "Data Scientist Career Path" course on Codecademy.
 - **Programming II Lab** ![](https://geps.dev/progress/100): Contains the answers to the lab questions of my Programming II course. 
 
