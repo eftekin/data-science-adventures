@@ -1,7 +1,7 @@
 from random import randint as rnd
 
-memReg = './members.txt'
-exReg = './inactive.txt'
+memReg = 'members.txt'
+exReg = 'inactive.txt'
 fee = ('yes', 'no')
 
 
@@ -68,8 +68,8 @@ def testMsg(passed):
         return 'Test Failed'
 
 
-testWrite = "./testWrite.txt"
-testAppend = "./testAppend.txt"
+testWrite = "testWrite.txt"
+testAppend = "testAppend.txt"
 passed = True
 
 genFiles(testWrite, testAppend)
