@@ -11,7 +11,6 @@ If you're new to the field of data science or looking to enhance your Python ski
 - [Python for Data Science Tutorials](https://docs.python.org/3/tutorial/index.html): Python tutorials that provide a solid foundation for data science tasks.
 - [Learn Python](https://www.learnpython.org/): An interactive platform for learning Python through hands-on exercises.
 - [Data Science Courses on Coursera](https://www.coursera.org/): Explore various data science courses, including offerings from top universities.
-- [Data Science and ML Bootcamp](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/): Learn how to use NumPy, Pandas, Seaborn, Matplotlib, Plotly, Machine Learning, Tensorflow and more!
 
 ## Repository Contents
 
