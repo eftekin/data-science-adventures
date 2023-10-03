@@ -16,8 +16,8 @@ If you're new to the field of data science or looking to enhance your Python ski
 
 This repository is organized into the following sections:
 
-- **Python for Data Science (Coursera - IBM)** ![](https://geps.dev/progress/68): Contains materials from the "Python for Data Science" course by IBM on Coursera.
 - **Data Scientist Career Path (Codecademy)** ![](https://geps.dev/progress/2): Includes resources from the "Data Scientist Career Path" on Codecademy.
+- **Python for Data Science (Coursera - IBM)** ![](https://geps.dev/progress/68): Contains materials from the "Python for Data Science" course by IBM on Coursera.
 - **Computer Programming II** ![](https://geps.dev/progress/100): Contains the answers to the lab questions of my Programming II course.
 
 ## How to Contribute
