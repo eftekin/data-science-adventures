@@ -1,25 +1,31 @@
-def analyze_smoker(smoker_status):
-    if smoker_status == 1:
-        print("To lower your cost, you should consider quitting smoking.")
+names = ["Judith", "Abel", "Tyson", "Martha", "Beverley", "David", "Anabel"]
+estimated_insurance_costs = [1000.0, 2000.0,
+                             3000.0, 4000.0, 5000.0, 6000.0, 7000.0]
+actual_insurance_costs = [1100.0, 2200.0,
+                          3300.0, 4400.0, 5500.0, 6600.0, 7700.0]
+
+total_cost = 0
+
+for insurance_cost in actual_insurance_costs:
+    total_cost += insurance_cost
+
+average_cost = total_cost/len(actual_insurance_costs)
+
+print("Average Insurance Cost: " + str(average_cost) + " dollars.")
+
+i = 0
+for i in range(len(names)):
+    name = names[i]
+    insurance_cost = actual_insurance_costs[i]
+    print("The insurance cost for " + name +
+          " is " + str(insurance_cost) + " dollars.")
+    if insurance_cost > average_cost:
+        print("The insurance cost for " + name + " is above average.")
+    elif insurance_cost < average_cost:
+        print("The insurance cost for " + name + " is below average.")
     else:
-        print("Smoking is not an issue for you.")
+        print("The insurance cost for " + name + " is equal to the average.")
 
-
-def calculate_insurance_cost(name, age, sex, bmi, num_of_children, smoker):
-    estimated_cost = 250*age - 128*sex + 370*bmi + \
-        425*num_of_children + 24000*smoker - 12500
-    print("The estimated insurance cost for " + name +
-          " is " + str(estimated_cost) + " dollars")
-    analyze_smoker(smoker)
-    print("")
-    return estimated_cost
-
-
-# Estimate Maria's insurance cost
-maria_insurance_cost = calculate_insurance_cost("Maria", 28, 0, 26.2, 3, 0)
-
-# Estimate Maria's insurance cost
-omar_insurance_cost = calculate_insurance_cost("Omar", 35, 1, 22.2, 0, 1)
-
-# Estimate Mustafa's insurance cost
-mustafa_insurance_cost = calculate_insurance_cost("Mustafa", 21, 1, 35, 0, 0)
+updated_estimated_costs = [estimated_cost * 11 /
+                           10 for estimated_cost in estimated_insurance_costs]
+print(updated_estimated_costs)
