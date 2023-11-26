@@ -11,6 +11,7 @@ average_cost = total_cost / len(actual_insurance_costs)
 
 print("Average Insurance Cost: " + str(average_cost) + " dollars.")
 
+
 i = 0
 for i in range(len(names)):
     name = names[i]
