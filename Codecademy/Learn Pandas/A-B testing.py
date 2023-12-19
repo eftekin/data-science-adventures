@@ -1,6 +1,6 @@
 import pandas as pd
 
-ad_clicks = pd.read_csv("ad_clicks.csv")
+ad_clicks = pd.read_csv("./csv/ad_clicks.csv")
 # print(ad_clicks.head())
 
 print(ad_clicks.groupby("utm_source").user_id.count().reset_index())

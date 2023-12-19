@@ -1,6 +1,6 @@
 import pandas as pd
 
-inventory = pd.read_csv("inventory.csv")
+inventory = pd.read_csv("./csv/inventory.csv")
 # print(inventory.head(10))
 
 staten_island = inventory.iloc[0:10]
