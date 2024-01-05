@@ -19,4 +19,4 @@ print("Sum of two numbers: " + str(addition(num1, num2)))
 num3 = float(input("Please enter the first number for division: "))
 num4 = float(input("Please enter the second number for division: "))
 
-print("Division of two numbers: " + str(addition(num1, num2)))
+print("Division of two numbers: " + str(division(num3, num4)))
