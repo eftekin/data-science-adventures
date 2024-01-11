@@ -1,3 +1,5 @@
+# Write a Python program to display calendar.
+
 import calendar
 
 year = int(input("Enter year (YYYY): "))
