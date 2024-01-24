@@ -8,7 +8,7 @@
 # 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, and so on.
 # Mathematically, the Fibonacci sequence can be defined using the following recurrence
 # relation:
-# 𝐹(0) = 0 𝐹(1) = 1 𝐹(𝑛) = 𝐹(𝑛 − 1) + 𝐹(𝑛 − 2)𝑓𝑜𝑟 𝑛 > 1
+# 𝐹(0) = 0 𝐹(1) = 1 𝐹(𝑛) = 𝐹(𝑛 − 1) + 𝐹(𝑛 − 2) 𝑓𝑜𝑟 𝑛 > 1
 
 n_terms = int(input("How many terms?\n"))
 
