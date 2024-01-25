@@ -15,7 +15,8 @@ n_terms = int(input("How many terms?\n"))
 if n_terms < 0:
     print("Please enter a positive number")
 else:
-
+    
+    # get fibonacci sequence function
     def fibonacci(n):
         if n == 0 or n == 1:
             return n
