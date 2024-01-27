@@ -16,7 +16,7 @@ If you're new to the field of data science or looking to enhance your Python ski
 
 This repository is organized into the following sections (The progress bar is kept up to date as I progress through the courses.):
 
-- **Data Scientist: Machine Learning Career Path (Codecademy)** ![](https://geps.dev/progress/37): Includes resources from the "Data Scientist Career Path" on Codecademy.
+- **Data Scientist: Machine Learning Career Path (Codecademy)** ![](https://geps.dev/progress/36): Includes resources from the "Data Scientist Career Path" on Codecademy.
 - **Python for Data Science (Coursera - IBM)** ![](https://geps.dev/progress/100): Contains materials from the "Python for Data Science" course by IBM on Coursera.
 - **Computer Programming II** ![](https://geps.dev/progress/100): Contains the answers to the lab questions of my Programming II course.
 
