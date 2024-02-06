@@ -1,4 +1,4 @@
-# Write a Python Program to Print the Fibonacci sequence.
+# Write a Python Program to Print the Fibonacci sequence with recursion.
 
 # Fibonacci sequence:
 # The Fibonacci sequence is a series of numbers where each number is the sum of the two
@@ -10,20 +10,23 @@
 # relation:
 # 𝐹(0) = 0 𝐹(1) = 1 𝐹(𝑛) = 𝐹(𝑛 − 1) + 𝐹(𝑛 − 2) 𝑓𝑜𝑟 𝑛 > 1
 
-n_terms = int(input("How many terms?\n"))
+nterms = int(input("How many terms?\n"))
 
-if n_terms < 0:
-    print("Please enter a positive number")
+# first two terms
+n1, n2 = 0, 1
+count = 0
+
+if nterms <= 0:
+    print("Please enter a positive integer")
+elif nterms == 1:
+    print("Fibonacci sequence upto", nterms, ":")
+    print(n1)
 else:
-    
-    # get fibonacci sequence function
-    def fibonacci(n):
-        if n == 0 or n == 1:
-            return n
-        elif n < 0:
-            return -1
-        else:
-            return fibonacci(n - 1) + fibonacci(n - 2)
-
-    for i in range(n_terms):
-        print(fibonacci(i))
+    print("Fibonacci sequence:\n")
+    while count < nterms:
+        print(n1)
+        nth = n1 + n2
+        # update values
+        n1 = n2
+        n2 = nth
+        count += 1
