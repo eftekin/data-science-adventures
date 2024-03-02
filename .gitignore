@@ -151,3 +151,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 /.metadata/
+courses/data_scientist_career_path/learn_python/.DS_Store
+courses/data_scientist_career_path/.DS_Store
+courses/data_scientist_career_path/.DS_Store
+.DS_Store
