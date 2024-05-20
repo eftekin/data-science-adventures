@@ -3,8 +3,6 @@ class Circle:
 
     def __init__(self, diameter):
         print("Creating circle with diameter {d}".format(d=diameter))
-        # Add assignment for self.radius here:
-
         self.radius = diameter / 2
 
     def circumference(self):
