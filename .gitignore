@@ -156,4 +156,4 @@ courses/data_scientist_career_path/.DS_Store
 courses/data_scientist_career_path/.DS_Store
 .DS_Store
 .vscode/settings.json
-.csv
+*.csv
